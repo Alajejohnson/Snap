@@ -10,11 +10,11 @@ function Hero() {
 
             <button className='text-white hover:text-[var(--black)] bg-[var(--black)] hover:bg-transparent border-0 hover:border-2   hover:border-[var(--black)] rounded-xl mt-16 px-6  '>Learn more</button>
       
-      <div className='flex gap-4 md:gap-8 items-center justify-center  object-contain lg:w-fit   mt-16 lg:mt-52 lg:items-baseline '>
-      <img src={Client2} alt="" className=' ' />
-        <img src={Client1} alt="" className=' ' />
-        <img src={Client4} alt="" className='' />
-        <img src={Client3} alt="" className='' />
+      <div className='flex gap-4 md:gap-8 items-center justify-center  object-contain  lg:w-fit   mt-16 lg:mt-52 lg:items-baseline '>
+      <img src={Client2} alt="" className='max-w-[80px] md:w-full ' />
+        <img src={Client1} alt="" className='max-w-[80px] md:w-full ' />
+        <img src={Client4} alt="" className='max-w-[80px] md:w-full ' />
+        <img src={Client3} alt="w-fit" className=' max-w-[80px] md:w-full ' />
         
       </div>
       
